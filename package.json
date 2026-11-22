@@ -1,0 +1,21 @@
+{
+  "name": "test-book-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@napi-rs/canvas": "^1.2.0",
+    "djvujs-dist": "^0.5.4",
+    "esbuild": "^0.28.2",
+    "pdfjs-dist": "^5.7.284",
+    "pngjs": "^5.0.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
